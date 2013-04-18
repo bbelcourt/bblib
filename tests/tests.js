@@ -91,7 +91,6 @@ test('bindEvent', function () {
 	var _evt = new Event('click');
 
 	var _handler = function (ev, data) {
-		console.log('clicked');
 		ok(true, 'Event bound successfully');
 	};
 	B.on('click', _link, _handler);
